@@ -1,0 +1,38 @@
+.footer{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: rgba(8, 19, 21, 1);
+    padding-left: 80px;
+    padding-top: 50px;
+    display: flex;
+    gap: 150px;
+    color: whitesmoke;
+}
+.footer_logo{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+.footer_logo p{
+    font-size: 12px;
+}
+.footer_con{
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+}
+.footer_con p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.footer_soc{
+    width: 200px;
+    height: 200px;
+    padding-top: 30px;
+}
+.footer_soc p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+}

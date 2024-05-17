@@ -1,0 +1,29 @@
+.pro{
+    width: 1200px;
+    background: whitesmoke;
+    padding: 50px;
+}
+.pro h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.pro_wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.pro_card{
+    width: 250px;
+    height: 350px;
+    background: white;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.pro_card:hover{
+    box-shadow: 0px 5px 5px gray;
+}
+.pro_card h4{
+    line-height: 40px;
+}

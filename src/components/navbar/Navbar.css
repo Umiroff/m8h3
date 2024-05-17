@@ -1,0 +1,48 @@
+.nav{
+    width: 1200px;
+    height: 70px;
+    background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 20px;
+    display: flex;
+    gap: 400px;
+}
+.nav div{
+    width: 600px;
+    height: 30px;
+    display: flex;
+    gap: 50px;
+}
+.nav_link{
+    text-decoration: none;
+}
+.nav div p{
+    margin-top: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 14px;
+}
+.nav div p:hover{
+    margin-top: 5px;
+    color: blue;
+}
+.nav div select{
+    background: fixed;
+    border: 0px;
+    color: whitesmoke;
+    font-size: 14px;
+    cursor: pointer;
+    outline: 0;
+}
+.nav div select:hover{
+    color: blue;
+}
+.nav div button{
+    width: 80px;
+    background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}

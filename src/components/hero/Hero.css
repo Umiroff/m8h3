@@ -1,0 +1,31 @@
+.hero{
+    width: 1200px;
+    background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
+    padding-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    gap: 100px;
+}
+.hero div{
+    width: 500px;
+    height: 500px;
+}
+.hero div h2{
+    color: white;
+    font-size: 52px;
+}
+.hero div p{
+    width: 400px;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+.hero div button{
+    width: 170px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    color: #00A8DB;
+    cursor: pointer;
+}
